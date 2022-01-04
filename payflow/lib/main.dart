@@ -31,7 +31,7 @@ class _AppFirebaseState extends State<AppFirebase> {
             );
           }
           if (snapshot.connectionState == ConnectionState.done) {
-            return AppWidget();
+            return const AppWidget();
           }
           return const Material(
             child: Center(
